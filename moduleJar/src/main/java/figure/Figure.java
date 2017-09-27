@@ -8,6 +8,7 @@ public class Figure {
 
     public double getCirclePerim(double r) {
         return r * 2 * Math.PI;
+    }
 
     public double getAreaTriangle(int lengthA, int lengthB, int lengthC) {
 
