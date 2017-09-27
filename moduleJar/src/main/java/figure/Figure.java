@@ -10,7 +10,7 @@ public class Figure {
         return r * 2 * Math.PI;
     }
 
-    public double getAreaTriangle(int lengthA, int lengthB, int lengthC) {
+    public double getAreaTriangle(double lengthA, double lengthB, double lengthC) {
 
         return Math.sqrt((lengthA + lengthB + lengthC) / 2)
                 * ((-lengthA + lengthB + lengthC) / 2)
@@ -18,7 +18,7 @@ public class Figure {
                 * ((lengthA + lengthB - lengthC) / 2);
     }
 
-    public double getPerimeterTriangle(int lengthA, int lengthB, int lengthC) {
+    public double getPerimeterTriangle(double lengthA, double lengthB, double lengthC) {
         return lengthA + lengthB + lengthC;
     }
 }
