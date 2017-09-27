@@ -9,5 +9,5 @@ public class Figure {
     public double getRectPerim(int a, int b) {
         return 2 * a + 2 * b;
     }
-    //
+    ////
 }
