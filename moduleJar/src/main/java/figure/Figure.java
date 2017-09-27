@@ -11,12 +11,8 @@ public class Figure {
         return 2 * a + 2 * b;
     }
     //////
-    public double getCircleArea(double r){
-        return Math.PI*r;
-
     public double getCircleArea(double r) {
         return Math.PI * r;
-
     }
 
     public double getCirclePerim(double r) {
