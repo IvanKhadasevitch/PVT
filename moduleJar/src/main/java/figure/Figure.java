@@ -20,11 +20,11 @@ public class Figure {
     }
 
     public double getAreaTriangle(double lengthA, double lengthB, double lengthC) {
-
-        return Math.sqrt((lengthA + lengthB + lengthC) / 2)
-                * ((-lengthA + lengthB + lengthC) / 2)
-                * ((lengthA - lengthB + lengthC) / 2)
-                * ((lengthA + lengthB - lengthC) / 2);
+        double halvePerimeter = this.getPerimeterTriangle(lengthA, lengthB, lengthC) / 2;
+        return Math.sqrt(halvePerimeter *
+                (halvePerimeter - lengthA) *
+                (halvePerimeter - lengthB) *
+                (halvePerimeter - lengthC));
     }
 
     public double getPerimeterTriangle(double lengthA, double lengthB, double lengthC) {

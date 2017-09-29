@@ -31,16 +31,16 @@
                     <username>admin</username>
                     <password>admin</password>
                 </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <!--<goal>run</goal>-->
-                            <!--<goal>run-war</goal>-->
-                            <goal>redeploy-only</goal>
-                        </goals>
-                        <phase>package</phase>
-                    </execution>
-                </executions>
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<goals>-->
+                            <!--&lt;!&ndash;<goal>run</goal>&ndash;&gt;-->
+                            <!--&lt;!&ndash;<goal>run-war</goal>&ndash;&gt;-->
+                            <!--<goal>redeploy-only</goal>-->
+                        <!--</goals>-->
+                        <!--<phase>package</phase>-->
+                    <!--</execution>-->
+                <!--</executions>-->
             </plugin>
         </plugins>
 
