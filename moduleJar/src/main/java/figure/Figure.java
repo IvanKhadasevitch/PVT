@@ -20,6 +20,7 @@ public class Figure {
     }
 
     public double getAreaTriangle(double lengthA, double lengthB, double lengthC) {
+        System.out.println("This is getAreaTriangle");
         double halvePerimeter = this.getPerimeterTriangle(lengthA, lengthB, lengthC) / 2;
         return Math.sqrt(halvePerimeter *
                 (halvePerimeter - lengthA) *
