@@ -3,7 +3,6 @@ package figure;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class FigureTest {
     private Figure figure = new Figure();
@@ -25,8 +24,6 @@ public class FigureTest {
         double areaTriangle = figure.getAreaTriangle(lengthA, lengthB, lengthC);
         double areaTriangleCheck = (Math.sqrt(3.0) / 4) * Math.pow(lengthA, 2.0);
         assertEquals(areaTriangle, areaTriangleCheck);
-        assertTrue(areaTriangleCheck != 0);
-        assertTrue(areaTriangle != 0);
     }
     @Test
     public void getPerimeterTriangleTest() {
