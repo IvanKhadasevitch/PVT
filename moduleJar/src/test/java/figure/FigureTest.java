@@ -20,13 +20,13 @@ public class FigureTest {
         assertEquals(perim, Math.PI*r*2);
     }
     @Test
-    public void getAreaTriangle(){
+    public void getAreaTriangleTest(){
         double areaTriangle = figure.getAreaTriangle(lengthA, lengthB, lengthC);
         double areaTriangleCheck = (Math.sqrt(3.0) / 4) * Math.pow(lengthA, 2.0);
         assertEquals(areaTriangle, areaTriangleCheck);
     }
     @Test
-    public void getPerimeterTriangle() {
+    public void getPerimeterTriangleTest() {
         double perimeterTriangle = figure.getPerimeterTriangle(lengthA, lengthB, lengthC);
         assertEquals(perimeterTriangle, 1 + 1 + 1);
     }

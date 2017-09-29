@@ -28,6 +28,7 @@ public class Figure {
     }
 
     public double getPerimeterTriangle(double lengthA, double lengthB, double lengthC) {
+        System.out.println("This is getPerimeterTriangle");
         return lengthA + lengthB + lengthC;
     }
 }
